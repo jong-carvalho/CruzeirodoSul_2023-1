@@ -1,0 +1,132 @@
+body {
+    background-color: lightpink;
+    margin: 0px;
+}
+
+
+/* HEADER - CABEÇALHO */
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 300px;
+    height: 150px;
+    background-color: yellow;
+    float: left;
+    margin: 20px 0px 0px 50px;
+}
+
+nav {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    float: right;
+    margin: 50px 50px 0px 0px;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul>li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+
+/* PRINCIPAL */
+
+main {
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+/* SECTION */
+
+section {
+    width: 68%;
+    height: 300px;
+    background-color: lightseagreen;
+    margin: 0px 1%;
+    float: left;
+}
+
+.servicos {
+    width: 23%;
+    height: 260px;
+    background-color: red;
+    float: left;
+    margin: 10px 1%;
+}
+
+
+/* ASIDE - BARRA LATERAL */
+
+aside {
+    width: 28%;
+    height: 1000px;
+    background-color: lightsalmon;
+    margin: 0px 1%;
+    float: right;
+}
+
+aside>div {
+    width: 94%;
+    background-color: blue;
+    margin: 10px auto;
+}
+
+#rastreio {
+    height: 200px;
+}
+
+#frete {
+    height: 340px;
+}
+
+#cobertura {
+    height: 400px;
+}
+
+
+/* ARTICLE */
+
+article {
+    width: 68%;
+    height: 700px;
+    background-color: lightgoldenrodyellow;
+    margin: 0px 1%;
+    float: left;
+}
+
+.conteudo {
+    width: 98%;
+    height: 320px;
+    background-color: green;
+    margin: 15px auto;
+}
+
+
+/* FOOTER - RODAPÉ */
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+.rodape {
+    width: 32%;
+    height: 150px;
+    background-color: purple;
+    float: left;
+    margin: 25px .6%;
+}
