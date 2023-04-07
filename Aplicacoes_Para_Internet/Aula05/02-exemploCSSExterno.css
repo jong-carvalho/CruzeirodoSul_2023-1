@@ -1,0 +1,11 @@
+span {
+    background-color: rgba(175, 173, 173, 0.637);
+    font-size: 40px;
+}
+
+div {
+    background-color: crimson;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
