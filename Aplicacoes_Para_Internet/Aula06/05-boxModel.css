@@ -1,0 +1,17 @@
+
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: lightslategrey;
+    float: left;
+    color: white;
+    font-size: 150px;
+}
+#dois {
+    margin-left: 100px;
+    margin-right: 200px;
+    padding-top: 200px;
+    border: 30px solid green;
+    margin-top: 100px;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #D96A9E;
+    font-size: 240px;
+    color: #F6BFC6;
+}
+
+nav {
+    font-size: 30px;
+    width: 100%;
+    background-color: #E58EAA;
+    text-align: center;
+    padding: 10px;
+}
+
+
+nav>ul {
+    margin: 0 10px;
+    list-style: none;
+}
+
+nav>ul>li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    width: 70%;
+    height: 800px;
+    font-size: 22px;
+    background-color: rgb(212, 212, 212);
+    clear: both;
+    float: left;
+}
+
+section > img {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.barraDireita {
+    width: 30%;
+    height: 800px;
+    float: right;
+    background-color: #efdce2;
+}
+
+#tyler {
+    width: 300px;
+}
+
+article {
+    width: 70%;
+    height: 700px;
+    background-color: rgb(212, 212, 212);
+    clear: both;
+    float: right;
+}
+
+article > img {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    padding: 150px;
+}
+
+.barraEsquerda {
+    width: 30%;
+    height: 700px;
+    float: left;
+    background-color: #efdce2;
+}
+
+#narrator {
+    width: 300px;
+    float: right;
+}
+
+aside > p{
+    clear: both;
+}
+
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: #D96A9E;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+footer > p {
+    font-size: 40px;
+    margin-top: 10px;
+}
